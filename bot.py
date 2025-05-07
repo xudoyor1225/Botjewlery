@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 
 # Global
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = os.getenv("ADMIN_ID")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 DB_NAME = "jewelry_bot.db"
 
 # Conversation States (Admin)
