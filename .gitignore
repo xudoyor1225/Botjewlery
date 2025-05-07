@@ -1,0 +1,45 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Python environment files
+*.env
+*.env.*
+.envrc
+
+# PyCharm IDE files
+.idea/
+
+# VSCode files
+.vscode/
+
+# Mac/Linux files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Test cache
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+*.pyo
+.cache/
+*.db
+
+# Token, API key, config files
+config.json
+secrets.json
+token.txt
